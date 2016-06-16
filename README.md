@@ -1,4 +1,4 @@
-pdfreverse is a python script that reverses the page order in a pdf document.
+pdfreverse or rev.py is a python script that reverses the page order in a pdf document.
 
 Usage:
     python rev.py -i "input.pdf" -o "output.pdf"
@@ -6,5 +6,9 @@ Usage:
     -o indicates the output file
     -h reiterates the command structure
 
+Dependencies:
+    pyPdf
+    getopt
+    sys
 
 
